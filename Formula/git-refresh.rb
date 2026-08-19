@@ -2,8 +2,8 @@ class GitRefresh < Formula
   desc "Keep every branch rebased onto the right base, in a worktree per branch"
   homepage "https://github.com/gregswift/git-refresh"
   license "MIT"
-  url "https://github.com/gregswift/git-refresh/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "8086c3633434d9dfb1cdcb0de6fcd61d5741f661f1d44dda8659ee83d8507f9c"
+  url "https://github.com/gregswift/git-refresh/archive/refs/tags/v1.1.2.tar.gz"
+  sha256 "06341229523d28950ac2f6ba7fea03102163b28074192305c6743c4710ca8530"
   head "https://github.com/gregswift/git-refresh.git", branch: "main"
 
   # git 2.37 for push.autoSetupRemote, which the workflow recommends; the
